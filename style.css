@@ -1,0 +1,43 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    margin-top: 10%;
+    padding-left: 3%;
+    font-size: 65px;
+    font-weight: 700;
+    border-left: 5px solid;
+    border-image: linear-gradient(green, green);
+    border-image-slice: 1;
+}
+p{
+    font-family: 'Times New Roman', Times, serif
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+.mission-year{
+    color: #335D80;
+}
+section{
+    display: flex;
+}
+.mission-introduction{
+    margin-top: 5%;
+    margin-left: 10%;
+    
+}
+.mission-introduction img{
+    
+    width: 75%;
+
+}
+.explore-button{
+    text-decoration: none;
+    background-image: linear-gradient(green, green);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
