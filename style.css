@@ -20,7 +20,7 @@ p{
 .mission-year{
     color: #335D80;
 }
-section{
+#top-section{
     display: flex;
 }
 .mission-introduction{
@@ -40,4 +40,40 @@ section{
     color: white;
     font-weight: 700;
     border-radius: 5px;
+}
+h2{
+    font-size: 45px;
+    text-align: center;
+}
+#middle-section{
+    display: flex;
+    width: 60%;
+}
+
+.mission-area{
+    width: 30%;
+    height: 10%;
+    padding-left: 5%;
+    padding-right: 3%;
+    margin-left: 10%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px; 
+}
+.vision-area{
+    width: 30%;
+    height: 10%;
+    padding-left: 5%;
+    padding-right: 3%;
+    margin-left: 10%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+.goals-area{
+    width: 30%;
+    height: 30%;
+    padding-left: 5%;
+    padding-right: 3%;
+    margin-left: 10%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
 }
