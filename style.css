@@ -3,7 +3,7 @@ body{
     margin: 0%;
     padding: 0%;
 }
-h1{
+.top-tittle{
     margin-top: 10%;
     padding-left: 3%;
     font-size: 65px;
@@ -18,20 +18,17 @@ p{
     padding-bottom: 25px;
 }
 .mission-year{
-    color: #335D80;
+    color: #cec440;
 }
 #top-section{
     display: flex;
 }
 .mission-introduction{
     margin-top: 5%;
-    margin-left: 10%;
-    
+    margin-left: 10%;  
 }
 .mission-introduction img{
-    
     width: 75%;
-
 }
 .explore-button{
     text-decoration: none;
@@ -45,35 +42,65 @@ h2{
     font-size: 45px;
     text-align: center;
 }
-#middle-section{
-    display: flex;
-    width: 60%;
+h3{
+    font-size: 25px;
 }
-
+#middle-section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
 .mission-area{
-    width: 30%;
-    height: 10%;
-    padding-left: 5%;
-    padding-right: 3%;
-    margin-left: 10%;
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 10px; 
+    background-color: lightcoral;
+    width: 385px;
+    height: 400px;
+    border-radius: 20px;
+}
+.mission-area img{
+    width: 150px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 .vision-area{
-    width: 30%;
-    height: 10%;
-    padding-left: 5%;
-    padding-right: 3%;
-    margin-left: 10%;
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 10px;
+    background-color: khaki;
+    width: 385px;
+    height: 400px;
+    border-radius: 20px;  
+}
+.vision-area img{
+    width: 150px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 .goals-area{
-    width: 30%;
-    height: 30%;
-    padding-left: 5%;
-    padding-right: 3%;
+    background-color: darksalmon;
+    width: 385px;
+    height: 400px;
+    border-bottom: 20px;
+    border-radius: 20px;   
+}
+.goals-area img{
+    width: 150px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.details-text{
+    padding-left: 25px;
+}
+#bottom-section{
+    display: flex;    
+}
+.bottom-tittle{
+    font-size: 35px; 
+}
+.development-details{
     margin-left: 10%;
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 10px;
+    margin-right: 10%;
+    margin-top: 5%;
+    width: 100%;
+    font-weight: 700;   
+}
+.development-details img{
+    width: 70%;
 }
