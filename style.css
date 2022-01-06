@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
 .top-tittle{
     margin-top: 10%;
@@ -118,4 +118,26 @@ h3{
 .development-details-4 img{
     width: 80%;
     margin-left: 30%;
+}
+footer{
+    margin-top: 75px;
+    background-color: khaki;
+    height: 250px;
+}
+.company-name{
+    text-align: center; 
+    padding-top: 15px;
+    font-family: sans-serif;
+}
+.company-last{
+    color:blue;
+}
+.address{
+    padding-left: 160px;
+    text-align: left;
+    color: black;
+}
+.copyright{
+    color: red;
+    font-size: 10px;
 }
